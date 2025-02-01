@@ -6,10 +6,22 @@
     <title>YouTube to MP3 Converter</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="navbar-logo">AmigoConverter</a>
+            <ul class="navbar-menu">
+                <li><a href="index.html">to MP3</a></li>
+                <li><a href="index2.html">to MP4</a></li>
+                <li><a href="index3.html">to WAV</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <div class="container">
-        <h1>YouTube to MP3 Converter</h1>
+        <h1><b>Youtube to MP3</b></h1>
         <div class="input-group">
             <input type="text" id="youtubeUrl" placeholder="Enter YouTube URL">
             <button id="convertBtn">Convert to MP3</button>
@@ -20,6 +32,36 @@
         </div>
         <div id="result"></div>
     </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>AmigoConverter is a simple and fast tool to convert YouTube videos to MP3 and many other formats. Enjoy your favorite music offline!</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Donate</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 YT2MP3. All rights reserved.</p>
+        </div>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
